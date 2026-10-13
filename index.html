@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison de Beauté | Haute Coiffure, Lash & Aesthetics Atelier</title>
+    <meta name="description" content="French balayage, Japanese head spa, Russian manicures, and bespoke lash extensions in a private Limassol beauty sanctuary.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-wrap">
+            <a href="#" class="brand">
+                <span class="brand-title">MAISON DE BEAUTÉ</span>
+                <span class="brand-sub">Haute Coiffure & Aesthetics</span>
+            </a>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#services" class="nav-link">Rituals</a>
+                <a href="#gallery" class="nav-link">Lookbook</a>
+                <a href="#atelier" class="nav-link">The Atelier</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#" class="btn btn-gold open-modal">Reserve Appointment</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div>
+                    <div class="pill-gold">
+                        <span class="material-symbols-outlined" style="font-size: 16px;">verified</span>
+                        Boutique French Beauty Atelier • Limassol Marina
+                    </div>
+                    <h1 class="hero-h1">
+                        The Art of <br>
+                        <span class="gold-text">Effortless Elegance.</span>
+                    </h1>
+                    <p class="hero-p">
+                        An intimate sanctuary devoted to master-level French balayage, restorative Japanese hair spa rituals, precision Russian manicures, and haute lash couture. Indulge in bespoke beauty crafted just for you.
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="#" class="btn btn-gold open-modal">
+                            Book Your Service
+                            <span class="material-symbols-outlined" style="font-size: 1.1rem;">arrow_forward</span>
+                        </a>
+                        <a href="#services" class="btn btn-outline">Explore Rituals</a>
+                    </div>
+                </div>
+
+                <div class="hero-img-box">
+                    <img src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1000" 
+                         alt="High Fashion Hair Styling" class="hero-img">
+                    
+                    <div class="hud-card">
+                        <div style="display: flex; align-items: center; gap: 0.75rem;">
+                            <div style="width: 38px; height: 38px; border-radius: 50%; background: rgba(209,167,117,0.2); color: var(--color-gold); display: flex; align-items: center; justify-content: center;">
+                                <span class="material-symbols-outlined">auto_awesome</span>
+                            </div>
+                            <div>
+                                <div style="font-weight: 700; font-size: 0.9rem; color: #FFFFFF;">Olaplex® & Kérastase Pro</div>
+                                <div style="font-size: 0.75rem; color: var(--color-muted);">Molecular Fiber Reconstruction</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-sub">Signature Rituals</span>
+                <h2 class="section-h2">Curated Beauty Treatments</h2>
+            </div>
+
+            <div class="grid-4">
+                <div class="service-card">
+                    <img src="https://images.pexels.com/photos/3993444/pexels-photo-3993444.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                         alt="French Balayage" class="service-img">
+                    <div class="service-body">
+                        <h3 class="service-name">French Balayage & Gloss</h3>
+                        <p class="service-desc">Freehand painted multi-dimensional ribbons of light blended into seamless sunkissed tones, sealed with a high-shine diamond gloss glaze.</p>
+                        <div class="service-price">From €140</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                         alt="Japanese Scalp Spa" class="service-img">
+                    <div class="service-body">
+                        <h3 class="service-name">Japanese Head & Scalp Spa</h3>
+                        <p class="service-desc">Botanical scalp peeling, herbal steam bath, acupressure neck massage, and deep follicle nourishment for lustrous hair density.</p>
+                        <div class="service-price">From €95</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://images.pexels.com/photos/3997389/pexels-photo-3997389.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                         alt="Russian Manicure" class="service-img">
+                    <div class="service-body">
+                        <h3 class="service-name">Russian E-File Manicure</h3>
+                        <p class="service-desc">Ultra-precise electronic dry cuticle cleaning, apex structural reinforcement, and flawless under-cuticle gel polish application lasting 4+ weeks.</p>
+                        <div class="service-price">From €65</div>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="https://images.pexels.com/photos/3985338/pexels-photo-3985338.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                         alt="Lash Couture" class="service-img">
+                    <div class="service-body">
+                        <h3 class="service-name">Lash Couture & Brow Sculpt</h3>
+                        <p class="service-desc">Weightless cashmere volume lash styling combined with keratin brow lamination and bespoke architectural dye tinting.</p>
+                        <div class="service-price">From €85</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lookbook Gallery -->
+    <section id="gallery" class="section" style="background: var(--color-noir-card); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-sub">Visual Gallery</span>
+                <h2 class="section-h2">The Atelier Lookbook</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.pexels.com/photos/2688991/pexels-photo-2688991.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="Editorial Makeup" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="Blonde Balayage" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.pexels.com/photos/3997389/pexels-photo-3997389.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                         alt="Haute Nails" class="gallery-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="section">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-sub">Guest Impressions</span>
+                <h2 class="section-h2">Words of Praise</h2>
+            </div>
+
+            <div class="review-grid">
+                <div class="review-card">
+                    <div>
+                        <div class="stars-box">
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                        </div>
+                        <p style="font-style: italic; color: #D6D0C7; line-height: 1.7; margin-bottom: 1.5rem;">
+                            "The best balayage colorists on the island! My blonde is bright, natural, and without any brassiness. The iced matcha latte on arrival is pure luxury."
+                        </p>
+                    </div>
+                    <div>
+                        <div style="font-weight: 700; color: white;">Valerie K.</div>
+                        <div style="font-size: 0.8rem; color: var(--color-muted);">Balayage VIP Guest</div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div>
+                        <div class="stars-box">
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                        </div>
+                        <p style="font-style: italic; color: #D6D0C7; line-height: 1.7; margin-bottom: 1.5rem;">
+                            "The Japanese head spa made me fall asleep within 10 minutes. My scalp feels completely refreshed and my blow-dry lasted 5 full days. Unbelievable experience."
+                        </p>
+                    </div>
+                    <div>
+                        <div style="font-weight: 700; color: white;">Natalia R.</div>
+                        <div style="font-size: 0.8rem; color: var(--color-muted);">Scalp Spa Guest</div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div>
+                        <div class="stars-box">
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                            <span class="material-symbols-outlined">star</span>
+                        </div>
+                        <p style="font-style: italic; color: #D6D0C7; line-height: 1.7; margin-bottom: 1.5rem;">
+                            "Meticulous Russian manicure. Cleanest cuticles I have ever seen and not a single chip after a month of travel. Maison de Beauté is in a league of its own."
+                        </p>
+                    </div>
+                    <div>
+                        <div style="font-weight: 700; color: white;">Eleni Christofi</div>
+                        <div style="font-size: 0.8rem; color: var(--color-muted);">Manicure & Lash Regular</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div style="font-family: var(--font-serif); font-size: 1.4rem; color: white; margin-bottom: 1rem;">
+                        MAISON DE BEAUTÉ
+                    </div>
+                    <p style="max-width: 320px; line-height: 1.7;">
+                        Haute coiffure, Japanese head spa, Russian nail craftsmanship, and bespoke lash aesthetics.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem;">Rituals</h4>
+                    <p style="margin-bottom: 0.5rem;">French Balayage</p>
+                    <p style="margin-bottom: 0.5rem;">Head & Scalp Spa</p>
+                    <p style="margin-bottom: 0.5rem;">Russian E-File Nails</p>
+                    <p style="margin-bottom: 0.5rem;">Lash Lamination</p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem;">The Salon</h4>
+                    <p style="margin-bottom: 0.5rem;">Master Colorists</p>
+                    <p style="margin-bottom: 0.5rem;">Bridal Suite</p>
+                    <p style="margin-bottom: 0.5rem;">Private VIP Rooms</p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 1rem;">Concierge</h4>
+                    <p style="color: var(--color-gold); font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem;">+357 25 711 222</p>
+                    <p style="font-size: 0.85rem; color: var(--color-muted);">Old Port Harbour 12, Limassol, Cyprus</p>
+                </div>
+            </div>
+            <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 2rem; font-size: 0.8rem;">
+                &copy; 2026 Maison de Beauté Atelier. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div class="modal-overlay" id="bookingModal">
+        <div class="modal-box">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: white; margin-bottom: 0.5rem;">
+                Reserve Your Atelier Experience
+            </h3>
+            <p style="color: var(--color-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+                Complimentary French press coffee or champagne included with all bookings.
+            </p>
+
+            <form id="salonForm">
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Mobile Phone</label>
+                    <input type="tel" class="form-input" placeholder="+357 99 000 000" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Ritual</label>
+                    <select class="form-input" required>
+                        <option>French Balayage & Glossing Ritual</option>
+                        <option>Japanese Head & Scalp Spa (60 min)</option>
+                        <option>Russian E-File Gel Manicure</option>
+                        <option>Cashmere Lash Extensions & Brow Lift</option>
+                        <option>VIP Full Day Transformation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Preferred Date</label>
+                    <input type="date" class="form-input" required>
+                </div>
+                <button type="submit" class="btn btn-gold" style="width: 100%; justify-content: center; margin-top: 1rem;">
+                    Confirm Reservation Request
+                </button>
+            </form>
+
+            <div id="salonConfirm" style="display: none; text-align: center; padding: 2rem 0;">
+                <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(209,167,117,0.2); color: var(--color-gold); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+                    <span class="material-symbols-outlined" style="font-size: 32px;">check</span>
+                </div>
+                <h4 style="font-family: var(--font-serif); font-size: 1.4rem; color: white; margin-bottom: 0.5rem;">
+                    Reservation Logged
+                </h4>
+                <p style="color: var(--color-muted); font-size: 0.9rem;">
+                    Our salon host will send a confirmation SMS with your stylist assignment shortly.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
